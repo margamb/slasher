@@ -1,0 +1,159 @@
+.influences{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 5%;
+
+
+
+}
+.influences img {
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+img {
+  width: 100%;
+}
+.title{
+
+  font-family: Nobel;
+  font-weight: bold;
+  font-size: 30px;
+  color: #9A0D19;
+
+}
+.round {
+  width:45%;
+  heigh: auto;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.circle {
+  background: #9A0D19;
+  width: 40%;
+  height: 87%;
+  border-radius: 100%;
+  margin-left: 5%;
+  display: table; /* Para poder centrar el texto verticalmente */
+  text-align: center;
+}
+
+.textphotoone {
+  font-size: 30px;
+  /*  Display: table-cell y vertical-align middle nos centran el texto verticalmente */
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Nobel;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+.textphototwo {
+  font-size: 30px;
+  /*  Display: table-cell y vertical-align middle nos centran el texto verticalmente */
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Nobel;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+
+}
+
+.textphotoone b {
+  display: block;
+  font-weight: normal;
+}
+.textphototwo b {
+  display: block;
+  font-weight: normal;
+}
+
+
+.photosone {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.phototwo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.circle:hover{
+    background:blue;
+    cursor: pointer;
+}
+.textphototwo:hover{
+    color: pink;
+}
+.textphotoone:hover{
+    color: pink;
+}
+.text {
+  background: #9A0D19;
+
+}
+
+.header{
+  background-color: #9A0D19;
+
+}
+
+.time p{
+  display: inline;
+  margin: 0;
+  font-family: Nobel;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px:
+  line-height: 60px;
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+
+.slasher{
+  margin:0;
+  font-family: Nobel;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  position:relative;
+  align-self: center;
+  position: absolute;
+  z-index:1;
+  width: 97%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.down p {
+  display: inline;
+  font-family: Nobel;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+}
+footer {
+  background-color: #9A0D19;
+  height: 100px;
+  margin: 0px;
+
+
+
+}
