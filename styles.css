@@ -1,127 +1,216 @@
-.influences{
+.phase {
   display: flex;
+  justify-content:center;
   flex-wrap: wrap;
   width: 100%;
   height: auto;
-  padding: 5%;
+}
 
-
+.phase1 {
+  justify-content:center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
 
 }
-.influences img {
+
+.phase img {
   width: 45%;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-
-
 }
 
 img {
   width: 100%;
 }
-.title{
 
-  font-family: Nobel;
+.title {
+  font-family: Helvetica, Arial, sans-serif;;
   font-weight: bold;
   font-size: 30px;
-  color: #9A0D19;
+  color: #00666D;
+  margin-top: 20%;
+  margin-bottom: 15%;
+  padding:0;
+}
 
+
+.centertext {
+  text-align: center;
 }
-.round {
-  width:45%;
-  heigh: auto;
-  display: inline-block;
-  font-weight: normal;
-}
+
+
 
 .circle {
   background: #9A0D19;
-  width: 40%;
-  height: 87%;
+  width: 45%;
+  height: 95%;
   border-radius: 100%;
   margin-left: 5%;
   display: table; /* Para poder centrar el texto verticalmente */
   text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.textphotoone {
+.textphotos {
   font-size: 30px;
   /*  Display: table-cell y vertical-align middle nos centran el texto verticalmente */
   display: table-cell;
   vertical-align: middle;
-  font-family: Nobel;
-  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 12px;
+  line-height: 1.35;
+
 }
-.textphototwo {
-  font-size: 30px;
+
+.textphotos1 {
+  font-size: 15px;
   /*  Display: table-cell y vertical-align middle nos centran el texto verticalmente */
   display: table-cell;
   vertical-align: middle;
-  font-family: Nobel;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #00666D ;
+  line-height: 1.35;
+  padding: 13%;
+}
+
+p {
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  color: white;
-  font-size: 20px;
+  color: #00666D ;
+  line-height: 1.35;
+  margin:0;
+  padding-left: 25px;
 
 }
 
-.textphotoone b {
+.textphotos b {
   display: block;
   font-weight: normal;
 }
-.textphototwo b {
-  display: block;
-  font-weight: normal;
-}
 
-
-.photosone {
-  width: 100%;
+.photos {
+  width: 85%;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-}
-.phototwo {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  justify-content: space-around;
 }
 
-.circle:hover{
-    background:blue;
+.lastphoto {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.lastphoto img {
+  border-radius: 100%;
+  width: 30%;
+  display: flex;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* .square {
+  background: #9A0D19;
+  width: 40%;
+  height: 87%;
+  border-radius: 10%;
+  margin-left: 5%;
+  display: table;  Para poder centrar el texto verticalmente
+  text-align: center;
+} */
+
+
+.circle:hover {
+    background:#B3B3B3;
     cursor: pointer;
+    /* width: 50%;
+    height: 100%; */
+    /* transform: scale(15%); */
 }
-.textphototwo:hover{
-    color: pink;
+
+/* .square:hover {
+    background:#00666D;
+    cursor: pointer;
+} */
+
+.textphotos:hover{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
 }
-.textphotoone:hover{
-    color: pink;
-}
+
 .text {
   background: #9A0D19;
+  margin-top: 20px;
+}
+
+.header {
+  flex-direction: row;
+}
+
+.dosmil {
+  font-size: 15px;
+  /*  Display: table-cell y vertical-align middle nos centran el texto verticalmente */
+  display: table-cell;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.35;
+  padding: 13%;
+  padding: 0;
+  color: #9A0D19;
+}
+
+.dosmil a {
+
+  text-decoration: none;
+}
 
 }
 
-.header{
-  background-color: #9A0D19;
-
-}
-
-.time p{
-  display: inline;
+ul {
   margin: 0;
-  font-family: Nobel;
-  font-weight: bold;
-  color: white;
+  padding: 0;
+  list-style: none;
+
+
+}
+
+
+.navigation-link {
+  margin: 0;
+  width: 100%;
+  display: inline;
   font-size: 20px;
-  margin-bottom: 30px:
-  line-height: 60px;
-  border: 1px solid white;
-  padding: 7px;
-  border-radius: 10px;
-  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-align: center;
+
+
+}
+
+.navigation-list {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+
+
+
+}
+
+a {
+  color: #9A0D19;
+  text-decoration: none;
 
 }
 
@@ -141,19 +230,10 @@ img {
   margin-top: 20px;
 }
 
-.down p {
-  display: inline;
-  font-family: Nobel;
-  font-weight: bold;
-  font-size: 20px;
-  margin: 10px;
-  color: white;
-}
+
+
 footer {
-  background-color: #9A0D19;
+
   height: 100px;
   margin: 0px;
-
-
-
 }
