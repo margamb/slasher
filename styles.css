@@ -1,3 +1,8 @@
+.allphases {
+  align-items: center;
+  justify-content:center;
+
+}
 .phase {
   display: flex;
   justify-content:center;
@@ -29,10 +34,12 @@ img {
   font-weight: bold;
   font-size: 30px;
   color: #00666D;
-  margin-top: 20%;
-  margin-bottom: 15%;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding:0;
 }
+
+
 
 
 .centertext {
@@ -86,6 +93,22 @@ p {
   margin:0;
   padding-left: 25px;
 
+}
+
+.textphotos1 p {
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #00666D ;
+  line-height: 1.35;
+  font-weight: normal;
+}
+
+.dosmilfilms p {
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #00666D ;
+  line-height: 1.35;
+  font-weight: normal;
 }
 
 .textphotos b {
@@ -155,13 +178,13 @@ p {
 
 .header {
   flex-direction: row;
+  align-items: center;
 }
 
 .dosmil {
   font-size: 15px;
   /*  Display: table-cell y vertical-align middle nos centran el texto verticalmente */
   display: table-cell;
-
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.35;
@@ -171,7 +194,6 @@ p {
 }
 
 .dosmil a {
-
   text-decoration: none;
 }
 
@@ -181,10 +203,12 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
-
-
 }
 
+a {
+  color: #9A0D19;
+  text-decoration: none;
+}
 
 .navigation-link {
   margin: 0;
@@ -195,45 +219,27 @@ ul {
   letter-spacing: 0;
   text-decoration: none;
   text-align: center;
-
-
 }
 
 .navigation-list {
   display: flex;
   margin-top: 20px;
-  justify-content: space-around;
-
-
-
+  padding:0;
 }
 
-a {
-  color: #9A0D19;
-  text-decoration: none;
+@media only screen and (min-width: 650px) {
+  .phase {
+    display: flex;
+    display:inline-block;
+    justify-content: flex-start;
 
-}
+    width: 40%;
+    height: auto;
 
+  }
+  .allphases {
+    align-items: center;
 
-.slasher{
-  margin:0;
-  font-family: Nobel;
-  font-weight: bold;
-  font-size: 50px;
-  color: white;
-  position:relative;
-  align-self: center;
-  position: absolute;
-  z-index:1;
-  width: 97%;
-  text-align: center;
-  margin-top: 20px;
-}
+  }
 
-
-
-footer {
-
-  height: 100px;
-  margin: 0px;
 }
