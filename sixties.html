@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sixties</title>
+  <style>
+
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    section {
+      background: beige;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin: 1rem auto;
+      max-width: 40rem;
+    }
+
+    .article-header {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .article-header,
+    .section-header {
+      display: inline-block;
+      font-size: 2rem;
+      letter-spacing: 0.05rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      text-transform: uppercase;
+    }
+
+    .circled {
+      border-radius: 50%;
+      text-align: center;
+    }
+
+    .circled-big {
+      height: 20rem;
+      width: 20rem;
+    }
+
+    .circled-small {
+      height: 15rem;
+      width: 15rem;
+    }
+
+    .giallo-article {
+      margin-right: 5rem;
+    }
+
+    .giallo-header {
+      position: relative;
+      top: -9rem;
+      left: 1rem;
+    }
+
+    .giallo-image {
+      position: absolute;
+      bottom: -3rem;
+      left: -3rem;
+      width: 22rem;
+    }
+
+    .green {
+      background-color: #127A83;
+      color: white;
+    }
+
+    .header-start {
+      background: url(./images/blood.svg) no-repeat;
+      background-size: contain;
+      text-transform: none;
+      position: absolute;
+      left: -4rem;
+      top: -3.5rem;
+      padding: 3.5rem 2rem;
+      text-shadow: 5px 5px 5px rgba(0,0,0, 0.6);
+    }
+
+    .psycho {
+      position: relative;
+      top: -5rem;
+      left: 3rem;
+    }
+
+    .psycho-image {
+      position: absolute;
+      bottom: 0;
+      left: -6rem;
+      width: 15rem;
+    }
+
+    .red {
+      background-color: #610605;
+      color: white;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .section-header {
+      order: 1;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      position: relative;
+      margin: -7.2rem auto 2.3rem;
+      z-index: 1;
+    }
+
+    .section-header h2{
+      margin: 0;
+    }
+
+    .yellow {
+      background-color: #FDBC57;
+    }
+
+  </style>
+</head>
+<body>
+  <section>
+
+    <header class='section-header red'>
+      <h2><b class='header-start'>60s</b>Influences</h2>
+    </header>
+
+    <article class="circled circled-big yellow giallo-article">
+      <header class="article-header green">Giallo</header>
+      <p>Italian cinematographic subgenre.</p>
+      <p>
+        It derived from the thriller and of horror movies, which had special
+        validity during the 70s, epoch in which he enjoyed a considerable
+        commercial success.
+      </p>
+    </article>
+
+    <section class="row">
+      <article class="circled circled-small green giallo-header">
+        <h3>Italian Giallos</h3>
+        <img class="giallo-image" src="./images/sixties-giallo.svg" alt="A picture of a giallo victim">
+      </article>
+
+      <article class="circled circled-small green psycho">
+        <p>Janet Leigh</p>
+        <h3>Psycho</h3>
+        <p>Alfred Hitchcock (1960)</p>
+        <img class="psycho-image" src="./images/sixties-janet-leigh.svg" alt="A picture of Janet Leigh">
+      </article>
+    </section>
+
+  </section>
+</body>
+</html>
