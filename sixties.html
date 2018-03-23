@@ -21,6 +21,9 @@
     }
 
     .article-header {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
       padding-left: 1rem;
       padding-right: 1rem;
     }
@@ -28,7 +31,6 @@
     .article-header,
     .section-header {
       display: inline-block;
-      font-size: 2rem;
       letter-spacing: 0.05rem;
       padding-top: 0.25rem;
       padding-bottom: 0.25rem;
@@ -41,13 +43,19 @@
     }
 
     .circled-big {
-      height: 20rem;
-      width: 20rem;
+      padding: 2rem 2.5rem;
+      height: 16rem;
+      width: 15rem;
     }
 
     .circled-small {
       height: 15rem;
       width: 15rem;
+    }
+
+    .circled-small.psycho {
+      width: 14.5rem;
+      padding-right: 0.5rem;
     }
 
     .giallo-article {
@@ -58,6 +66,13 @@
       position: relative;
       top: -9rem;
       left: 1rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .giallo-header b {
+      color: #FDBC57;
     }
 
     .giallo-image {
@@ -87,12 +102,30 @@
       position: relative;
       top: -5rem;
       left: 3rem;
+      text-align: left;
+    }
+
+    .psycho h3 {
+      margin: 0.5rem 0 0.5rem 4rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .psycho p {
+      color: #FDBC57;
+      margin: 0 0 0 4rem;
+      font-size: 1.5rem;
+    }
+
+    .psycho p:first-child {
+      margin-top: 2rem;
     }
 
     .psycho-image {
       position: absolute;
       bottom: 0;
-      left: -6rem;
+      left: -7rem;
       width: 15rem;
     }
 
@@ -108,6 +141,7 @@
 
     .section-header {
       order: 1;
+      font-size: 2rem;
       padding-left: 5rem;
       padding-right: 5rem;
       position: relative;
@@ -126,6 +160,7 @@
   </style>
 </head>
 <body>
+
   <section>
 
     <header class='section-header red'>
@@ -144,7 +179,7 @@
 
     <section class="row">
       <article class="circled circled-small green giallo-header">
-        <h3>Italian Giallos</h3>
+        <h3>Italian <b>Giallos</b></h3>
         <img class="giallo-image" src="./images/sixties-giallo.svg" alt="A picture of a giallo victim">
       </article>
 
